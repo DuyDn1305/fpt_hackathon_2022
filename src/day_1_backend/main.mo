@@ -78,6 +78,7 @@ actor {
 					k := j;
 				}; 
 			};
+      // swap
 			if (i != k) {
 				a[i] += a[k];
 				a[k] := a[i] - a[k];
